@@ -1,4 +1,4 @@
-*peaches* **are** the best fruit no cap hands down lmao
+*peaches* **are** the best fruit no cap hands down
 # This is a funky heading
 ## This is a funkier heading
 [This is a link to a completely normal computer science page, not suspicious at all](https://www.youtube.com/watch?v=dQw4w9WgXcQ)
