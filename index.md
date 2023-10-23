@@ -1,10 +1,10 @@
 1. No Arguments
 ![Image](lab1one.PNG)
-Nothing happened. There was no argument, but if there was one it would have changed the directory to the given input. There was nothing to change to, and so nothing changing was no error. There was no output because changing directory to nothing doesn't do anything. The working directory was /home.
+The directory was switched to /home. Because there was no argument, the working directory was "changed" to /home, even though the working directory was already /home. If the working directory had been /home/lecture1 or /home/lecture1/messages, the working directory would have changed to /home if there was no argument given. The directory changed as intended, so there was no error. The working directory was /home.
 ![Image](lab1two.png)
 lecture1 was printed out. There was no argument, but there was a current directory: the home one. lecture1 was the only item in the /home directory, and so only it was printed out. There was no error. The working directory was /home.
 ![Image](lab1three.png)
-Nothing happened. cat prints out the contents of a file, but there was no argument given, so nothing was printed out. In the screenshot, the cursor is still waiting for an input, so this is an error. The working directory was /home.
+Nothing happened. cat prints out the contents of a file, but there was no argument given, so nothing was printed out. In the screenshot, the cursor is still waiting for an input, but no error message was thrown, so this is not an error. The working directory was /home.
 3. Directory Argument
 ![Image](lab1four.png)
 The working directory was changed to /home/lecture1. cd changes the directory to the given input, and since lecture1 was input and was inside the /home directory, the directory was changed. Things worked as intended, so there was no error. The working directory was initially /home, but changed to /home/lecture1.
